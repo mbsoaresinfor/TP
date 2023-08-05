@@ -4,6 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		Impressora imp[] =  new Impressora[3];
+		
 		Pessoa pessoa = new Pessoa();
 		pessoa.setNome("marcelo");
 		

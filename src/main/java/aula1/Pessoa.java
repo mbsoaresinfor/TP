@@ -2,7 +2,7 @@ package aula1;
 
 public class Pessoa {
 
-	private String nome;
+	private String nome; // salvar o nome da pessoa
 	private Endereco endereco;
 	
 	public String getNome() {
