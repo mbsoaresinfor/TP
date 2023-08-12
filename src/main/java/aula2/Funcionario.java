@@ -2,7 +2,7 @@ package aula2;
 // alterar pacote se necessario
 
 public class Funcionario {
-    int id;
+    public int id;
 	String nome; 
     int idade; 
     String dataNascimento; 
