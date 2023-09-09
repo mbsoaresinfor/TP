@@ -7,6 +7,7 @@ public class Main {
 		Impressora imp[] =  new Impressora[3];
 		
 		Pessoa pessoa = new Pessoa();
+		Pessoa pessoa2 = new Pessoa();
 		pessoa.setNome("marcelo");
 		
 		Endereco endereco = new Endereco();
@@ -39,7 +40,8 @@ System.out.println("número: "+
 		
 		mostrarNomes(aluno);
 		mostrarNomes(prof);
-	
+		
+		
 	}
 	
 	public static void mostrarNomes(Pessoa p) {
